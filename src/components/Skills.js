@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { LanguageContext } from '../context/LangContextProvider';
 import { navItems, learning } from '../data/content';
 import { FaHtml5, FaCss3Alt, FaReact, FaNode, FaSass, FaGitAlt } from 'react-icons/fa';
-import { SiMongodb, SiJavascript, SiRedux, SiTailwindcss } from 'react-icons/si';
+import { SiMongodb, SiJavascript, SiNextDotJs, SiRedux, SiTailwindcss } from 'react-icons/si';
 
 const Skills = () => {
 
@@ -33,6 +33,9 @@ const Skills = () => {
                 <div className="p-8">
                     <FaReact style={{color: "#61DBFB"}} />
                 </div>
+                <div className="p-8">
+                    <SiNextDotJs style={{color: "#000"}} />
+                </div>                
                 <div className="p-8">
                     <SiRedux style={{color: "#764ABC"}} />
                 </div>
