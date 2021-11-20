@@ -8,7 +8,7 @@ const About = () => {
     const { language } = useContext(LanguageContext);
 
     return (
-        <section className="inner-container dark:bg-dark dark:text-gray-50" id="about">
+        <section className="inner-container rounded-xl dark:bg-dark dark:text-gray-50" id="about">
             
             <h3 className="section-title">
                 {navItems[language][1].name}

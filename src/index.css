@@ -51,7 +51,7 @@ html {
   font-size: 0.875rem; 
 }
 .social-icons {
-  @apply cursor-pointer w-8 h-8 hover:text-secondary;
+  @apply cursor-pointer w-8 h-8 hover:text-white;
 }
 .section-title {
   @apply text-center text-2xl font-bold mb-8;

@@ -4,7 +4,7 @@ import { portfolioInfo } from "../data/content";
 const Portfolio = () => {
   return (
     <section
-      className="inner-container dark:bg-dark dark:text-gray-50"
+      className="inner-container rounded-xl dark:bg-dark dark:text-gray-50"
       id="portfolio"
     >
       <h3 className="section-title">Portfolio</h3>

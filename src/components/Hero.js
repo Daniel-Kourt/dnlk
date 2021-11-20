@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/LangContextProvider";
 import { heroInfo } from "../data/content";
-import { FaLinkedin, FaGithub, FaFacebookF, FaArrowDown } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaFacebookSquare, FaArrowDown } from "react-icons/fa";
 import heroIcon from "../images/heroIcon.svg";
 
 const Hero = () => {
@@ -30,34 +30,35 @@ const Hero = () => {
             </h2>
 
             {/* ------- Socials ------- */}
-            <div className="flex space-x-6 mt-4 text-xl text-white dark:text-white">
+            <div className="flex space-x-6 mt-4 text-xl text-secondary">
               <a
                 href="https://www.linkedin.com/in/daniel-kourtesis/"
                 target="_blank"
+                title="Visit my LinkedIn profile"
                 rel="noreferrer"
               >
                 <FaLinkedin className="social-icons" />
-              </a>
+              </a>              
               <a
                 href="https://github.com/Daniel-Kourt"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaGithub className="social-icons" />
-              </a>
+              </a>  
               <a
                 href="https://www.facebook.com/daniel.koyrt"
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaFacebookF className="social-icons" />
-              </a>
+                <FaFacebookSquare className="social-icons" />
+              </a>            
             </div>
 
             {/* ------- Scroll ------- */}
-            <div className="mt-16 ml-8 w-24 text-center text-base">
+            <div className="mt-16 ml-6 w-24 text-center text-base">
               <span>Scroll</span>
-              <FaArrowDown className="w-6 h-6 mx-auto mt-4 transition-transform animate-bounce" />
+              <FaArrowDown className="w-6 h-6 mx-auto mt-6 animate-bounce" />
             </div>
           </div>
         </div>

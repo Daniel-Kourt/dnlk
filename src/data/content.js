@@ -15,6 +15,7 @@ export const navItems = [
   ],
 ];
 
+
 export const heroInfo = [
   {
     hi: "Hi",
@@ -29,6 +30,7 @@ export const heroInfo = [
     prof2: "Front-end",
   },
 ];
+
 
 export const socialInfo = [
   {
@@ -48,12 +50,69 @@ export const socialInfo = [
   },
 ];
 
+
 export const aboutMe = [
   "Hello, i'm Daniel and i live in Brussels, Belgium. I love 3 'C' in my life, coffee, cardio and coding.\nI gratuated in 2010 with a Bachelor’s Degree in Computers Science, but i'm a lifelong learner and i like to learn new things every day.",
   "Salut! Je m'appelle Daniel et j'habite à Bruxelles, en Belgique. J'aime beaucoup 3 'C' dans ma vie, le cafe, le cardio et le code.\nJ'ai obtenu en 2010 un baccalauréat en informatique, mais j'aime apprendre de nouvelles technologies tous les jours.",
 ];
 
+
+export const mySkills = [
+  {
+      skill: "html",
+      color: "#e34c26"        
+  },
+  {
+      skill: "css",
+      color: "#264de4"
+  },
+  {
+      skill: "js",
+      color: "#f0db4f",
+      bgcolor: "#323330"
+  },
+  {
+      skill: "typescript",
+      color: "#3178C6",
+      bgcolor: "#fff"
+  },
+  {
+      skill: "reactjs",
+      color: "#61DBFB"
+  },
+  {
+      skill: "nextjs",
+      color: "#000"
+  },
+  {
+      skill: "redux",
+      color: "#764ABC"
+  },
+  {
+      skill: "nodejs",
+      color: "#3C873A"
+  },
+  {
+      skill: "mongo",
+      color: "#3FA037"
+  },
+  {
+      skill: "sass",
+      color: "#CD6799"
+  },
+  {
+      skill: "tailwind",
+      color: "#06B6D4"
+  },
+  {
+      skill: "git",
+      color: "#F34F29"
+  }
+]
+
+
 export const learning = ["React Native", "Mobile development"];
+
 
 export const portfolioInfo = {
   portfolio: [
@@ -105,6 +164,7 @@ export const portfolioInfo = {
   extTitle: ["Visit", "Visiter"],
   githubTitle: ["View code in GitHub", "Voir le code sur Github"],
 };
+
 
 export const contactInfo = [
   {
